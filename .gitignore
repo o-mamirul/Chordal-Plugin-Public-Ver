@@ -1,0 +1,84 @@
+# JUCE Project Files
+Builds/
+JuceLibraryCode/
+Jsons/
+
+# IDE Files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+*.vcxproj.filters
+*.vcxproj.user
+
+# Build Results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio Cache/Options
+.vscode/
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+xcuserdata/
+DerivedData/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# VST Build Products
+*.vst3
+*.component
+*.aaxplugin
+
+# Temporary files
+*.tmp
+*.temp
+*.rar
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
