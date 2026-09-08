@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Dn2f3m" name="ChordalVST" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              pluginFormats="buildVST3" defines="JUCE_MODAL_LOOPS_PERMITTED=1"
+              companyWebsite="Ocha" bundleIdentifier="Ocha" pluginManufacturer="Ocha">
+  <MAINGROUP id="fomJqI" name="ChordalVST">
+    <GROUP id="{1DFDCA39-CAF4-8A55-1823-574E92F5A373}" name="Fonts">
+      <FILE id="QXO2K8" name="MonaSans-Bold.ttf" compile="0" resource="1"
+            file="Source/Fonts/MonaSans-Bold.ttf"/>
+      <FILE id="Ku1bbY" name="MonaSans-Regular.ttf" compile="0" resource="1"
+            file="Source/Fonts/MonaSans-Regular.ttf"/>
+      <FILE id="BCtns8" name="SourceSerif4-Bold.ttf" compile="0" resource="1"
+            file="Source/Fonts/SourceSerif4-Bold.ttf"/>
+      <FILE id="aWaTw6" name="SourceSerif4-Regular.ttf" compile="0" resource="1"
+            file="Source/Fonts/SourceSerif4-Regular.ttf"/>
+    </GROUP>
+    <GROUP id="{43CBB6E9-51D9-24B1-F8F8-EC222881194C}" name="Source">
+      <FILE id="fwweM6" name="ChordalLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/ChordalLookAndFeel.cpp"/>
+      <FILE id="OM9vIo" name="ChordalLookAndFeel.h" compile="0" resource="0"
+            file="Source/ChordalLookAndFeel.h"/>
+      <FILE id="rPWaEG" name="VSTLoginDialog.h" compile="0" resource="0"
+            file="Source/VSTLoginDialog.h"/>
+      <FILE id="DRRqSw" name="TokenGenerator.cpp" compile="1" resource="0"
+            file="Source/TokenGenerator.cpp"/>
+      <FILE id="R7SLfq" name="TokenGenerator.h" compile="0" resource="0"
+            file="Source/TokenGenerator.h"/>
+      <FILE id="M1fFHJ" name="ChordRecorder.cpp" compile="1" resource="0"
+            file="Source/ChordRecorder.cpp"/>
+      <FILE id="vn6h3V" name="ChordRecorder.h" compile="0" resource="0" file="Source/ChordRecorder.h"/>
+      <FILE id="oeklGR" name="ChordTooltips.cpp" compile="1" resource="0"
+            file="Source/ChordTooltips.cpp"/>
+      <FILE id="RsOXI5" name="ChordTooltips.h" compile="0" resource="0" file="Source/ChordTooltips.h"/>
+      <FILE id="kODkND" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="FyosYx" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="dId2fP" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="RZNxFM" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="ma7aVz" name="ChordAnalyzer.h" compile="0" resource="0" file="Source/ChordAnalyzer.h"/>
+      <FILE id="qJqMhC" name="ChordAnalyzer.cpp" compile="1" resource="0"
+            file="Source/ChordAnalyzer.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_animation" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_javascript" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="ChordalVST"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="ChordalVST"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_animation" path="../../../../../Programs/General/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../Programs/General/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../Programs/General/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../Programs/General/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../Programs/General/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../Programs/General/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../Programs/General/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../Programs/General/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../Programs/General/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../Programs/General/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../Programs/General/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../Programs/General/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../Programs/General/JUCE/modules"/>
+        <MODULEPATH id="juce_javascript" path="../../../../../Programs/General/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../Programs/General/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
